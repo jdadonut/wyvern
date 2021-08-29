@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/basin/Programming/wyvern/wyvern.csproj": {}
+    "J:\\Programming\\wyvern\\wyvern.csproj": {}
   },
   "projects": {
-    "/basin/Programming/wyvern/wyvern.csproj": {
+    "J:\\Programming\\wyvern\\wyvern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/basin/Programming/wyvern/wyvern.csproj",
+        "projectUniqueName": "J:\\Programming\\wyvern\\wyvern.csproj",
         "projectName": "wyvern",
-        "projectPath": "/basin/Programming/wyvern/wyvern.csproj",
-        "packagesPath": "/home/jai/.nuget/packages/",
-        "outputPath": "/basin/Programming/wyvern/obj/",
+        "projectPath": "J:\\Programming\\wyvern\\wyvern.csproj",
+        "packagesPath": "C:\\Users\\jdado\\.nuget\\packages\\",
+        "outputPath": "J:\\Programming\\wyvern\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/jai/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jdado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.emzi0767.com/api/v3/index.json": {}
         },
@@ -58,18 +66,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
