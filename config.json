@@ -1,0 +1,9 @@
+{
+    "mongo": {
+        "username": "internalUser",
+        "password": "N$#KJN8cj123d8KIJNFpiun3#14noiujn(*@NUVC9*&#!@N()#n)(&#FNn",
+        "clusterUri": "cluster0.kderp.mongodb.net",
+        "database": "wyvern",
+        "retryWrites": true
+    }
+}

@@ -1,0 +1,8 @@
+{
+    lang-code:en
+    lang-name:English
+}
+\English Pak (this is a comment)
+HELLO_WORLD:Hello, World! \Only char that needs to be escaped is ":"
+LOGIN:Login
+MESSAGEBOX_PLACEHOLDER:Send a message to #{Context.Server.Name} \Becomes "Send a message to #general"
